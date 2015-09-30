@@ -1,0 +1,11 @@
+.label_acti{
+font-size = 14px;
+font-weight.700;
+color:blue;
+}
+.label_acti:hover{
+  font-size: 10px;
+  font-weight: 500;
+  color:#fff;
+ background-color: red;
+}
