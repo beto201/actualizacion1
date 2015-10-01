@@ -1,6 +1,10 @@
-function generar(numper,numgrup){
- $num1=numper;
-$num2=numgrup;
-$res=$num1+$num2;
-alert($res);
+function generar(){
+var numper = $("#personas").val();
+var numgrup = $("#grupos").val();
+alert("hh: "+ numper + "; "+ numgrup);
+}
+
+function añadir(){
+var capturanombre=$("#addper").val();
+$("#lista").append("<li>"+capturanombre+"</li>");
 }

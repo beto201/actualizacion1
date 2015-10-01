@@ -13,20 +13,28 @@
 <link rel= "stylesheet" type="text/css" href="css/main.css">
 </head>
 	<BODY>
+	<div class="row">
+	   <div class="col-mg-6">
          <form role="form" class="col-xs-4">
            <div class="jumbotron">
             		
 			<div class="form-group">
 			<LABEL class="label_acti"> #PERSONAS: </LABEL>
-			<INPUT type="text" id="nombre" class="form-control"  placeholder="Introduce tu email" >
-		        <br></br>
+			<INPUT type="text" id="personas" class="form-control"  placeholder="Introduce el numero de personas" > 	
+			<br></br>
 			<LABEL class="label_acti"> #GRUPOS: </LABEL>
-			<INPUT type="text"  id="grupo" class="form-control" placeholder="Contraseña">
+			<INPUT type="text"  id="grupos" class="form-control" placeholder="Introduce el numero de grupos">
 		        <br></br>
-                        </div>
-	<INPUT type = "submit"  onclick="generar(4,5);"> 
-		     
-          </form> 
+			<INPUT type = "submit"  onclick="generar();">
+			<br></br>
+	</div>
+	<div "class=rol-mg-6">
+			<LABEL class="label_acti">AÑADIR PERSONAS: </LABEL>
+			<INPUT type="text" id="addper" class="form-control"  placeholder="" >
+		     	<INPUT type = "button" value= "añadir"  onclick="añadir();">
+	</div>
+          </form>
+	<div><ul id ="lista"></ul></div> 
         </div>
 	</BODY>
 		
